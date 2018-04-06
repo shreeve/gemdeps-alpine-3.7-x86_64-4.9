@@ -1,0 +1,20 @@
+gems:
+  "*":
+    command: apk --update add ${packages}
+  atomic:
+  bigdecimal:
+  bcrypt:
+  bond:
+  ffi: "* +libffi-dev"
+  hpricot:
+  io-console:
+  json:
+  kgio:
+  mysql2: "* mariadb-client mariadb-libs +mariadb-dev"
+  nokogiri: "* libxml2 libxslt +libxml2-dev +libxslt-dev -- --use-system-libraries"
+  psych:
+  raindrops: "* +linux-headers"
+  redcarpet:
+  rmagick: "* imagemagick +imagemagick-dev"
+  unf_ext: "* libstdc++"
+  unicorn:
